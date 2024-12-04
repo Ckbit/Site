@@ -1,1 +1,37 @@
-<h1>hello, world!</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope">
+            <div class="envelope-content">
+                <div class="letter">
+                    <p>Meu amor...</p>
+                </div>
+            </div>
+            <button id="openLetterBtn">Abrir</button>
+        </div>
+    </div>
+
+    <div id="photosSection" class="hidden">
+        <div class="carousel-container">
+            <div class="carousel vertical">
+                <!-- Fotos serão adicionadas aqui dinamicamente -->
+            </div>
+        </div>
+        <button id="addPhotoBtn">Adicionar Foto</button>
+        <div class="romantic-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc eget ultricies tincidunt, velit velit bibendum velit, vel bibendum sapien nunc vel lectus.</p>
+        </div>
+    </div>
+
+    <input type="file" id="fileInput" accept="image/*" multiple class="hidden">
+
+    <script src="script.js"></script>
+</body>
+</html>
